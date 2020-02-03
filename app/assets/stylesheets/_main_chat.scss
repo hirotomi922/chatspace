@@ -9,7 +9,7 @@
       display: flex;
       justify-content: space-between;
 
-      .main-header_left-box {
+      &__left-box {
         &__current-group {
         font-size: 20px;
         margin-top: 35px;
@@ -32,8 +32,8 @@
         height: 40px;
         padding: 0 20px;
         margin-top: 28px;
-        border: solid 1px $lite-blue;//#38aef0;
-        color: $lite-blue;//#38aef0;
+        border: solid 1px $lite-blue;
+        color: $lite-blue;
         float: right;
         right: 40px;
         position: absolute;
