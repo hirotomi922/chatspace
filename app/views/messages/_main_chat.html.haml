@@ -1,0 +1,30 @@
+.main-chat
+  .main-header
+    .main-header__left-box
+      .main-header__left-box__current-group
+        グループ名
+      %ul.main-header__left-box__current-group__menber
+        Menber
+        %li.menber
+          メンバー名
+        
+    .main-header__edit-btn
+      Edit
+  .messages
+    .message
+      .upper-message
+        .upper-message__user-name
+          メンバー
+        .upper-message__date
+          2020/02/02
+      .lower-message
+        .lower-message__content
+          メッセージ
+  .form
+    %form.new_message
+      .input-box
+        %input{type: "text", class: "input-box__text", placeholder: "type a message" }
+        %label{class: "input-box__image"}
+          = icon('fas', 'image')
+          %input{type: "file", class: "input-box__image__file"}
+      %input{type: "submit", class: "submit-btn"}
