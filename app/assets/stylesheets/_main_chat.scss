@@ -1,4 +1,4 @@
-.main-chat {
+.main_chat {
   width: calc(100vw - 300px);
   float: left;
     .main-header {
@@ -75,7 +75,7 @@
       padding: 20px 40px;
       background-color: #d2d2d2;
 
-      form {
+      .new_message {
         display: flex;
         .input-box {
           display: flex;
